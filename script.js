@@ -35,4 +35,11 @@ var exampleBigInt = 2122645545435543445n; //большое число
 // Symbol - Not now
 var exampleSymbol = Symbol("id");
 
+// Objects
+var exampleObject1 = {};
+var exampleObject2 = Math;
+
+// Weird stuff - странные вещи
+documen.write(typeof null); //object
+
 
