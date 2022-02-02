@@ -50,5 +50,45 @@ documen.write(typeof null); //object
 
 var exampleTypeConversion1 = 5 + "5";
 var exampleTypeConversion2 = 5 + 5 + "5";
-document.write(exampleTypeConversion2);
+var exampleTypeConversion3 = true + 2;
+var exampleTypeConversion4 = new String(5);
+var exampleTypeConversion5 = new Number("10")
+var exampleTypeConversion6 = new Boolean(" ");
+
+// Math
+// Operand x = 5 + 6;
+// Operands: 5, 6
+// Operattor: +
+
+// Unary operator
+var x = 5;
+x = -x;
+
+// var y = "3";
+// y = +y;
+
+//Binary operator
+var  x = 1, y = 3;
+y = x + y;
+
+
+var exampleMath1 = 5 + 6;
+var exampleMath2 = 5 - 6;
+var exampleMath3 = 5 / 6;
+var exampleMath4 = 5 * 6;
+
+// Remainder 
+var exampleMath5 = 5 % 2; //1 нечетное
+var exampleMath6 = 6 % 2; //0 четное
+
+ // Exponent
+ var exampleMath7 = 2 ** 4;
+
+//  document.write("Hello" + "World");
+// document.write(5 * (2 - 3) - 5);
+
+
+// 
+
+
 
