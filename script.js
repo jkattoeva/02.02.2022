@@ -42,4 +42,13 @@ var exampleObject2 = Math;
 // Weird stuff - странные вещи
 documen.write(typeof null); //object
 
+//Output
+// alert("Hello world");
+// var result = promt("Hello world"); string
+// var result = confirm(Hello world); boolean 
+//document.write("Hello world");
+
+var exampleTypeConversion1 = 5 + "5";
+var exampleTypeConversion2 = 5 + 5 + "5";
+document.write(exampleTypeConversion2);
 
